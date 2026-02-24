@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-800;
+}
+
+/* Thin scrollbar for the schedule grid */
+.schedule-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.schedule-scroll::-webkit-scrollbar-track {
+  @apply bg-slate-200 rounded;
+}
+.schedule-scroll::-webkit-scrollbar-thumb {
+  @apply bg-slate-400 rounded;
+}

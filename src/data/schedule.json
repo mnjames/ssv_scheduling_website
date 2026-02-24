@@ -1,0 +1,2084 @@
+{
+  "exportedAt": "2026-02-24T14:12:01.698Z",
+  "chapters": [
+    {
+      "id": "GEN-1",
+      "book": "GEN",
+      "num": 1,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-02",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-09",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-23",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-2",
+      "book": "GEN",
+      "num": 2,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-02",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-09",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-23",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-3",
+      "book": "GEN",
+      "num": 3,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-02",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-09",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-23",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-4",
+      "book": "GEN",
+      "num": 4,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-09",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-16",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-30",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-5",
+      "book": "GEN",
+      "num": 5,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-09",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-16",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-30",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-6",
+      "book": "GEN",
+      "num": 6,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-09",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-16",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-30",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-7",
+      "book": "GEN",
+      "num": 7,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-23",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-06",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-8",
+      "book": "GEN",
+      "num": 8,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-23",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-06",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-9",
+      "book": "GEN",
+      "num": 9,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-23",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-06",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-10",
+      "book": "GEN",
+      "num": 10,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-30",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-13",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-11",
+      "book": "GEN",
+      "num": 11,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-30",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-13",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-12",
+      "book": "GEN",
+      "num": 12,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-30",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-13",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-13",
+      "book": "GEN",
+      "num": 13,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-06",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-20",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-14",
+      "book": "GEN",
+      "num": 14,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-06",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-20",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-15",
+      "book": "GEN",
+      "num": 15,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-06",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-20",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-16",
+      "book": "GEN",
+      "num": 16,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-13",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-27",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-17",
+      "book": "GEN",
+      "num": 17,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-13",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-27",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-18",
+      "book": "GEN",
+      "num": 18,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-13",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-27",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-19",
+      "book": "GEN",
+      "num": 19,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-20",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-04",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-20",
+      "book": "GEN",
+      "num": 20,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-20",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-04",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-21",
+      "book": "GEN",
+      "num": 21,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-20",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-04",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-22",
+      "book": "GEN",
+      "num": 22,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-27",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-11",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-23",
+      "book": "GEN",
+      "num": 23,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-27",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-11",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-24",
+      "book": "GEN",
+      "num": 24,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-27",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-11",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-25",
+      "book": "GEN",
+      "num": 25,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-04",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-18",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-26",
+      "book": "GEN",
+      "num": 26,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-04",
+        "person": "DP",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-18",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-27",
+      "book": "GEN",
+      "num": 27,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-02",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-09",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-23",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-28",
+      "book": "GEN",
+      "num": 28,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-09",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-16",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-03-30",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-29",
+      "book": "GEN",
+      "num": 29,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-16",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-23",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-03-30",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-06",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-30",
+      "book": "GEN",
+      "num": 30,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-03-23",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-03-30",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-13",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-31",
+      "book": "GEN",
+      "num": 31,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-13",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-04-27",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-32",
+      "book": "GEN",
+      "num": 32,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-20",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-04",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-33",
+      "book": "GEN",
+      "num": 33,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-04-27",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-11",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-34",
+      "book": "GEN",
+      "num": 34,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-04",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-18",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-35",
+      "book": "GEN",
+      "num": 35,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-04-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-04",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-18",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-36",
+      "book": "GEN",
+      "num": 36,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-11",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-25",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-37",
+      "book": "GEN",
+      "num": 37,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-11",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-25",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-38",
+      "book": "GEN",
+      "num": 38,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-11",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-25",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-39",
+      "book": "GEN",
+      "num": 39,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-04",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-11",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-05-25",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-40",
+      "book": "GEN",
+      "num": 40,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-18",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-01",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-41",
+      "book": "GEN",
+      "num": 41,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-18",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-01",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-42",
+      "book": "GEN",
+      "num": 42,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-18",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-01",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-43",
+      "book": "GEN",
+      "num": 43,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-11",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-18",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-01",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-44",
+      "book": "GEN",
+      "num": 44,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-25",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-08",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-45",
+      "book": "GEN",
+      "num": 45,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-25",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-08",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-46",
+      "book": "GEN",
+      "num": 46,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-25",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-08",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-47",
+      "book": "GEN",
+      "num": 47,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-18",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-05-25",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-08",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-48",
+      "book": "GEN",
+      "num": 48,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-01",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-15",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-49",
+      "book": "GEN",
+      "num": 49,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-01",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-15",
+        "done": false
+      }
+    },
+    {
+      "id": "GEN-50",
+      "book": "GEN",
+      "num": 50,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-01",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-15",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-1",
+      "book": "EXO",
+      "num": 1,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-05-25",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-01",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-15",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-2",
+      "book": "EXO",
+      "num": 2,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-08",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-22",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-3",
+      "book": "EXO",
+      "num": 3,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-08",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-22",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-4",
+      "book": "EXO",
+      "num": 4,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-08",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-22",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-5",
+      "book": "EXO",
+      "num": 5,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-01",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-08",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-22",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-6",
+      "book": "EXO",
+      "num": 6,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-15",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-29",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-7",
+      "book": "EXO",
+      "num": 7,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-15",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-29",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-8",
+      "book": "EXO",
+      "num": 8,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-08",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-15",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-06-29",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-9",
+      "book": "EXO",
+      "num": 9,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-22",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-06",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-10",
+      "book": "EXO",
+      "num": 10,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-22",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-06",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-11",
+      "book": "EXO",
+      "num": 11,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-15",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-22",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-06",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-12",
+      "book": "EXO",
+      "num": 12,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-29",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-13",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-13",
+      "book": "EXO",
+      "num": 13,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-29",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-13",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-14",
+      "book": "EXO",
+      "num": 14,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-22",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-06-29",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-13",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-15",
+      "book": "EXO",
+      "num": 15,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-06",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-20",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-16",
+      "book": "EXO",
+      "num": 16,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-06",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-20",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-17",
+      "book": "EXO",
+      "num": 17,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-06-29",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-06",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-20",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-18",
+      "book": "EXO",
+      "num": 18,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-13",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-27",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-19",
+      "book": "EXO",
+      "num": 19,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-13",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-27",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-20",
+      "book": "EXO",
+      "num": 20,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-06",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-13",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-07-27",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-21",
+      "book": "EXO",
+      "num": 21,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-20",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-03",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-22",
+      "book": "EXO",
+      "num": 22,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-20",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-03",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-23",
+      "book": "EXO",
+      "num": 23,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-13",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-20",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-03",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-24",
+      "book": "EXO",
+      "num": 24,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-27",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-10",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-25",
+      "book": "EXO",
+      "num": 25,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-27",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-10",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-26",
+      "book": "EXO",
+      "num": 26,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-20",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-07-27",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-10",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-27",
+      "book": "EXO",
+      "num": 27,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-03",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-17",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-28",
+      "book": "EXO",
+      "num": 28,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-03",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-17",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-29",
+      "book": "EXO",
+      "num": 29,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-07-27",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-03",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-17",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-30",
+      "book": "EXO",
+      "num": 30,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-10",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-24",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-31",
+      "book": "EXO",
+      "num": 31,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-10",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-24",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-32",
+      "book": "EXO",
+      "num": 32,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-03",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-10",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-24",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-33",
+      "book": "EXO",
+      "num": 33,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-17",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-24",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-31",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-34",
+      "book": "EXO",
+      "num": 34,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-17",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-24",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-31",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-35",
+      "book": "EXO",
+      "num": 35,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-10",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-17",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-24",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-08-31",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-36",
+      "book": "EXO",
+      "num": 36,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-24",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-31",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-09-07",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-37",
+      "book": "EXO",
+      "num": 37,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-24",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-31",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-09-07",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-38",
+      "book": "EXO",
+      "num": 38,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-17",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-24",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-08-31",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-09-07",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-39",
+      "book": "EXO",
+      "num": 39,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-24",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-31",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-09-07",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-09-14",
+        "done": false
+      }
+    },
+    {
+      "id": "EXO-40",
+      "book": "EXO",
+      "num": 40,
+      "stage": "prep",
+      "prep": {
+        "weekId": "2026-08-24",
+        "done": false
+      },
+      "check": {
+        "weekId": "2026-08-31",
+        "person": "FB",
+        "done": false
+      },
+      "finalize": {
+        "weekId": "2026-09-07",
+        "done": false
+      },
+      "tc": {
+        "weekId": "2026-09-14",
+        "done": false
+      }
+    }
+  ],
+  "notes": {
+    "2026-03-16": "Isaac Nigeria",
+    "2026-03-09": "Isaac Nigeria",
+    "2026-03-02": "Isaac Nigeria",
+    "2026-02-23": "Isaac Nigeria",
+    "2026-04-06": "Malachi Spring Break",
+    "2026-05-18": "Malachi EMDC/ptxprint",
+    "2026-05-25": "Malachi EMDC/ptxprint"
+  }
+}
