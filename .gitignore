@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+
+# runtime / generated data
+data/
+# (keep runtime data ignored). Do NOT ignore the bundled schedule in src/data
+# if you want it published to GitHub. The line below was removed so the file
+# will be tracked: src/data/schedule.json
+
+# misc
+*.log
