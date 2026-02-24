@@ -43,7 +43,13 @@ export default function ScheduleApp() {
 
     // Try to POST to server endpoint first (shared server will write data/schedule.json)
     try {
-      fetch("/api/save-schedule", {
+      // Respect Vite base when hosted under a subpath
+      // During dev, use the proxied `/api` path so vite's proxy works.
+      const apiUrl = import.meta.env.DEV
+        ? "/api/save-schedule"
+        : new URL("api/save-schedule", (import.meta.env.BASE_URL || "/")).toString();
+
+      fetch(apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
