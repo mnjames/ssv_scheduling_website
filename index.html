@@ -9,7 +9,13 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Cloudflare Web Analytics — replace YOUR_TOKEN_HERE with your token from dash.cloudflare.com/web-analytics -->
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script>
+    <!-- Google Analytics 4 — replace YOUR_MEASUREMENT_ID with your ID (e.g. G-XXXXXXXXXX) from analytics.google.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZMRXJ3446"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0ZMRXJ3446');
+    </script>
   </body>
 </html>
