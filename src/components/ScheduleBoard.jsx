@@ -2,6 +2,7 @@ import { useMemo, useRef, useEffect } from "react";
 import { generateWeeks, getCurrentWeekId } from "../utils/weeks";
 import { STAGE_KEYS } from "../data/chapters";
 import StageCell from "./StageCell";
+import ChapterCard from "./ChapterCard";
 
 const WEEKS = generateWeeks();
 const CURRENT_WEEK_ID = getCurrentWeekId();
@@ -16,18 +17,30 @@ const COLUMN_LABELS = {
 
 const COLUMN_HEADER_COLOR = {
   prep: "bg-blue-100 text-blue-800",
-  "check-DP": "bg-purple-100 text-purple-800",
+  "check-DP": "bg-orange-100 text-orange-800",
   "check-FB": "bg-orange-100 text-orange-800",
   finalize: "bg-teal-100 text-teal-800",
   tc: "bg-amber-100 text-amber-800",
 };
 
-export default function ScheduleBoard({ chapters, notes = {}, setNote, activeChapter, unassign, markDone, undoDone }) {
+export default function ScheduleBoard({ chapters, notes = {}, setNote, activeChapter, activeStageKey, unassign, toggleStageDone, markDone, undoDone, isEditMode = true }) {
   const currentWeekRef = useRef(null);
 
   useEffect(() => {
     if (currentWeekRef.current) {
-      currentWeekRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Scroll the board container so the week row is fully visible below the
+      // sticky column headers. Calculate an offset using the header height.
+      const container = currentWeekRef.current.closest(".schedule-scroll") || document.querySelector(".schedule-scroll");
+      if (container) {
+        const header = container.querySelector(".sticky");
+        const headerHeight = header ? header.getBoundingClientRect().height : 0;
+        const containerRect = container.getBoundingClientRect();
+        const targetRect = currentWeekRef.current.getBoundingClientRect();
+        const offset = targetRect.top - containerRect.top - headerHeight - 6; // small gap
+        container.scrollBy({ top: offset, behavior: "smooth" });
+      } else {
+        currentWeekRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     }
   }, []);
 
@@ -57,7 +70,11 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
   }, [chapters]);
 
   function canDropHere(stageKey) {
-    return !!activeChapter && stageKey === "prep";
+    if (!activeChapter) return false;
+    // Sidebar / prep card → can only drop on prep
+    if (!activeStageKey || activeStageKey === "prep") return stageKey === "prep";
+    // A card being moved within its own column
+    return stageKey === activeStageKey;
   }
 
   return (
@@ -113,20 +130,51 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
                 )}
               </div>
 
-              {/* Stage cells */}
-              {STAGE_KEYS.map((sk) => (
-                <div key={sk} className="flex-1 min-w-[150px] p-1.5 border-r border-slate-200 last:border-r-0">
-                  <StageCell
-                    weekId={week.id}
-                    stageKey={sk}
-                    chapters={grid[week.id]?.[sk] ?? []}
-                    canDrop={canDropHere(sk)}
-                    onMarkDone={markDone}
-                    onUndoDone={undoDone}
-                    onUnassign={unassign}
-                  />
-                </div>
-              ))}
+                    {/* Stage cells */}
+                    {isEditMode
+                      ? STAGE_KEYS.map((sk) => {
+                          const isFocusCol = sk === "prep" || sk === "finalize";
+                          const colBg = isFocusCol
+                            ? isCurrentWeek
+                              ? "bg-yellow-100"
+                              : isPast
+                              ? "bg-slate-200"
+                              : "bg-slate-50"
+                            : "";
+                          return (
+                            <div key={sk} className={`flex-1 min-w-[150px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
+                              <StageCell
+                                weekId={week.id}
+                                stageKey={sk}
+                                chapters={grid[week.id]?.[sk] ?? []}
+                                canDrop={canDropHere(sk)}
+                                onToggleDone={toggleStageDone}
+                                onUnassign={unassign}
+                              />
+                            </div>
+                          );
+                        })
+                      : STAGE_KEYS.map((sk) => {
+                          const isFocusCol = sk === "prep" || sk === "finalize";
+                          const colBg = isFocusCol
+                            ? isCurrentWeek
+                              ? "bg-yellow-100"
+                              : isPast
+                              ? "bg-slate-200"
+                              : "bg-slate-50"
+                            : "";
+                          return (
+                            <div key={sk} className={`flex-1 min-w-[150px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
+                              <div className="min-h-[52px] rounded-lg p-1.5 flex flex-col gap-1">
+                                {(grid[week.id]?.[sk] ?? []).map((ch) => (
+                                  <div key={ch.id} className="mb-1">
+                                    <ChapterCard chapter={ch} stageKey={sk} allowDrag={false} />
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        })}
 
               {/* Notes cell */}
               <div className="w-52 px-2 py-2 border-r border-slate-200 last:border-r-0">

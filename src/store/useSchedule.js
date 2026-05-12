@@ -1,16 +1,11 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { generateChapters } from "../data/chapters";
 import { generateWeeks } from "../utils/weeks";
 import scheduleData from "../data/schedule.json";
 
-const STORAGE_KEY = "ssv_schedule_v1";
-
 function loadState() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch {}
-  // If there's a bundled schedule export, use it as the initial state
+  // Always load from the bundled schedule.json so deployed updates are
+  // immediately visible — no localStorage override.
   if (scheduleData && Array.isArray(scheduleData.chapters)) {
     return { chapters: scheduleData.chapters, notes: scheduleData.notes || {} };
   }
@@ -19,11 +14,6 @@ function loadState() {
 
 export function useSchedule() {
   const [state, setState] = useState(loadState);
-
-  // Persist to localStorage on every change
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  }, [state]);
 
   // Assign a chapter to Team Prep week; auto-populates check/finalize/tc.
   const assign = useCallback((chapterId, stageKey, weekId) => {
@@ -74,14 +64,74 @@ export function useSchedule() {
     }));
   }, []);
 
-  // Import a saved schedule payload (either { chapters, notes } or raw chapters array)
-  
+  // Move a single stage slot to a new weekId.
+  // If all earlier stages are done, only this stage and undone later stages shift.
+  // If ANY earlier stage is NOT done, behaves like assign (shifts this + all later).
+  const moveStage = useCallback((chapterId, stageKey, weekId) => {
+    setState((prev) => ({
+      ...prev,
+      chapters: prev.chapters.map((ch) => {
+        if (ch.id !== chapterId) return ch;
+        const weeks = generateWeeks();
+        const idx = weeks.findIndex((w) => w.id === weekId);
+        if (idx < 0) return ch;
+
+        const ORDERED = ["prep", "check", "finalize", "tc"];
+        const stageIdx = ORDERED.indexOf(stageKey === "check-DP" || stageKey === "check-FB" ? "check" : stageKey);
+        const resolvedStageKey = stageKey === "check-DP" || stageKey === "check-FB" ? "check" : stageKey;
+
+        // Are all stages before this one done?
+        const earlierAllDone = ORDERED.slice(0, stageIdx).every((s) => ch[s]?.done);
+
+        if (earlierAllDone) {
+          // Independent move: shift this stage + any undone stages after it
+          const updated = { ...ch };
+          updated[resolvedStageKey] = { ...ch[resolvedStageKey], weekId };
+          // Propagate to later undone stages while maintaining relative spacing
+          const laterStages = ORDERED.slice(stageIdx + 1);
+          let prevWeekIdx = idx;
+          for (const s of laterStages) {
+            if (!ch[s]?.done && ch[s]?.weekId) {
+              prevWeekIdx = prevWeekIdx + 1;
+              updated[s] = { ...updated[s], weekId: weeks[prevWeekIdx]?.id ?? null };
+            }
+          }
+          return updated;
+        } else {
+          // Normal assign from this stage: shift this + all later with fixed offsets
+          const updated = { ...ch };
+          updated[resolvedStageKey] = { ...ch[resolvedStageKey], weekId };
+          const laterStages = ORDERED.slice(stageIdx + 1);
+          for (let i = 0; i < laterStages.length; i++) {
+            const s = laterStages[i];
+            updated[s] = { ...updated[s], weekId: weeks[idx + 1 + i]?.id ?? null };
+          }
+          return updated;
+        }
+      }),
+    }));
+  }, []);
 
   // Set a freeform note for a specific week (notes keyed by weekId)
   const setNote = useCallback((weekId, text) => {
     setState((prev) => ({
       ...prev,
       notes: { ...(prev.notes || {}), [weekId]: text },
+    }));
+  }, []);
+
+  // Toggle the done flag on a specific stage slot (does NOT advance ch.stage)
+  // Used by the per-cell checkbox to unlock independent movement
+  const toggleStageDone = useCallback((chapterId, stageKey) => {
+    setState((prev) => ({
+      ...prev,
+      chapters: prev.chapters.map((ch) => {
+        if (ch.id !== chapterId) return ch;
+        const resolvedKey = stageKey === "check-DP" || stageKey === "check-FB" ? "check" : stageKey;
+        const slot = ch[resolvedKey];
+        if (!slot) return ch;
+        return { ...ch, [resolvedKey]: { ...slot, done: !slot.done } };
+      }),
     }));
   }, []);
 
@@ -141,6 +191,8 @@ export function useSchedule() {
     notes: state.notes || {},
     assign,
     unassign,
+    moveStage,
+    toggleStageDone,
     setNote,
     markDone,
     undoDone,

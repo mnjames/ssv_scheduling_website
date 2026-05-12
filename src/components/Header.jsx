@@ -1,4 +1,4 @@
-export default function Header({ onReset, onSave, stats }) {
+export default function Header({ onReset, onSave, onLogin, isEditMode, stats }) {
   const pct = stats.total === 0 ? 0 : Math.round((stats.completed / stats.total) * 100);
 
   return (
@@ -17,7 +17,7 @@ export default function Header({ onReset, onSave, stats }) {
           />
         </div>
         <span className="text-xs text-slate-500 whitespace-nowrap">
-          {stats.completed}/{stats.total} done ({pct}%)
+          {stats.completed}/{stats.total} Finished ({pct}%)
         </span>
       </div>
 
@@ -26,7 +26,10 @@ export default function Header({ onReset, onSave, stats }) {
         <span className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-medium">
           Prep: {stats.prep}
         </span>
-        <span className="bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full font-medium">
+        <span
+          className="px-2 py-0.5 rounded-full font-medium text-orange-900"
+          style={{ background: 'repeating-linear-gradient(-45deg, #f3e8ff, #f3e8ff 6px, #ffedd5 6px, #ffedd5 12px)' }}
+        >
           Check: {stats.check}
         </span>
         <span className="bg-teal-100 text-teal-700 px-2 py-0.5 rounded-full font-medium">
@@ -35,21 +38,32 @@ export default function Header({ onReset, onSave, stats }) {
       </div>
 
       <div className="ml-auto flex items-center gap-2">
-        <button
-          onClick={onSave}
-          className="text-xs text-slate-700 hover:text-slate-900 px-2 py-1 rounded hover:bg-slate-50 transition-colors"
-          title="Save schedule to file"
-        >
-          Save
-        </button>
-        <button
-          onClick={onReset}
-          className="text-xs text-slate-400 hover:text-red-500 px-2 py-1 rounded hover:bg-red-50 transition-colors"
-          title="Reset all data"
-        >
-          Reset
-        </button>
-        {/* Log out removed — authentication disabled */}
+        {isEditMode ? (
+          <>
+            <button
+              onClick={onSave}
+              className="text-xs text-slate-700 hover:text-slate-900 px-2 py-1 rounded hover:bg-slate-50 transition-colors"
+              title="Save schedule to file"
+            >
+              Save
+            </button>
+            <button
+              onClick={onReset}
+              className="text-xs text-slate-400 hover:text-red-500 px-2 py-1 rounded hover:bg-red-50 transition-colors"
+              title="Reset all data"
+            >
+              Reset
+            </button>
+          </>
+        ) : (
+          <button
+            onClick={onLogin}
+            className="text-xs text-slate-700 hover:text-slate-900 px-2 py-1 rounded hover:bg-slate-50 transition-colors"
+            title="Login to edit schedule"
+          >
+            Login
+          </button>
+        )}
       </div>
     </header>
   );

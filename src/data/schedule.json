@@ -1,5 +1,4 @@
 {
-  "exportedAt": "2026-02-24T14:12:01.698Z",
   "chapters": [
     {
       "id": "GEN-1",
@@ -8,19 +7,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-02",
-        "done": false
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-09",
+        "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-16",
-        "done": false
+        "weekId": "2026-03-23",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-23",
+        "weekId": "2026-04-06",
         "done": false
       }
     },
@@ -31,19 +30,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-02",
-        "done": false
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-09",
+        "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-16",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-23",
+        "weekId": "2026-04-13",
         "done": false
       }
     },
@@ -54,19 +53,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-02",
-        "done": false
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-09",
+        "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-16",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-23",
+        "weekId": "2026-04-13",
         "done": false
       }
     },
@@ -77,19 +76,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-09",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-23",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "done": false
       }
     },
@@ -100,19 +99,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-09",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-23",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "done": false
       }
     },
@@ -123,19 +122,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-09",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-16",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-23",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "done": false
       }
     },
@@ -146,19 +145,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-16",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-23",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       }
     },
@@ -169,19 +168,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-16",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-23",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       }
     },
@@ -192,19 +191,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-16",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-23",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       }
     },
@@ -215,19 +214,19 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-23",
-        "done": false
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       }
     },
@@ -237,20 +236,20 @@
       "num": 11,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-03-23",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       }
     },
@@ -260,20 +259,20 @@
       "num": 12,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-03-23",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "check": {
-        "weekId": "2026-03-30",
+        "weekId": "2026-04-13",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       }
     },
@@ -283,20 +282,20 @@
       "num": 13,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       }
     },
@@ -306,20 +305,20 @@
       "num": 14,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-20",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       }
     },
@@ -329,20 +328,20 @@
       "num": 15,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-03-30",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-27",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-05-04",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-11",
         "done": false
       }
     },
@@ -352,20 +351,20 @@
       "num": 16,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-06",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       }
     },
@@ -375,20 +374,20 @@
       "num": 17,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-06",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       }
     },
@@ -398,20 +397,20 @@
       "num": 18,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-06",
+        "weekId": "2026-04-27",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-05-04",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-11",
         "done": false
       },
       "tc": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-18",
         "done": false
       }
     },
@@ -421,20 +420,20 @@
       "num": 19,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       }
     },
@@ -444,20 +443,20 @@
       "num": 20,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-04-27",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       }
     },
@@ -467,20 +466,20 @@
       "num": 21,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-13",
+        "weekId": "2026-05-04",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-11",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-18",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-25",
         "done": false
       }
     },
@@ -490,20 +489,20 @@
       "num": 22,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       }
     },
@@ -513,20 +512,20 @@
       "num": 23,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-04",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       }
     },
@@ -536,20 +535,20 @@
       "num": 24,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-05-11",
         "done": false
       },
       "check": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-18",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-25",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-06-01",
         "done": false
       }
     },
@@ -559,20 +558,20 @@
       "num": 25,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       }
     },
@@ -582,20 +581,20 @@
       "num": 26,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-05-11",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "person": "DP",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       }
     },
@@ -606,20 +605,20 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-02",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-09",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-03-16",
-        "done": false
+        "done": true
       },
       "tc": {
         "weekId": "2026-03-23",
-        "done": false
+        "done": true
       }
     },
     {
@@ -629,20 +628,20 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-09",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-16",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-03-23",
-        "done": false
+        "done": true
       },
       "tc": {
         "weekId": "2026-03-30",
-        "done": false
+        "done": true
       }
     },
     {
@@ -652,20 +651,20 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-16",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-23",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-03-30",
-        "done": false
+        "done": true
       },
       "tc": {
-        "weekId": "2026-04-06",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       }
     },
     {
@@ -675,20 +674,20 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-03-23",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-03-30",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-04-06",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-04-13",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       }
     },
     {
@@ -697,17 +696,17 @@
       "num": 31,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-06",
-        "done": false
+        "weekId": "2026-03-30",
+        "done": true
       },
       "check": {
         "weekId": "2026-04-13",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-04-20",
-        "done": false
+        "done": true
       },
       "tc": {
         "weekId": "2026-04-27",
@@ -720,20 +719,20 @@
       "num": 32,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-13",
-        "done": false
+        "weekId": "2026-04-06",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-20",
+        "weekId": "2026-04-13",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-04-27",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       },
       "tc": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-04-27",
         "done": false
       }
     },
@@ -743,20 +742,20 @@
       "num": 33,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-20",
-        "done": false
+        "weekId": "2026-04-13",
+        "done": true
       },
       "check": {
-        "weekId": "2026-04-27",
+        "weekId": "2026-04-20",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-04-27",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-04",
         "done": false
       }
     },
@@ -766,20 +765,20 @@
       "num": 34,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-04-27",
-        "done": false
+        "weekId": "2026-04-20",
+        "done": true
       },
       "check": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-04-27",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-04",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-11",
         "done": false
       }
     },
@@ -835,20 +834,20 @@
       "num": 37,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-11",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-18",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-25",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "done": false
       }
     },
@@ -858,20 +857,20 @@
       "num": 38,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       }
     },
@@ -881,20 +880,20 @@
       "num": 39,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-04",
+        "weekId": "2026-05-18",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       },
       "tc": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       }
     },
@@ -904,20 +903,20 @@
       "num": 40,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-18",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-25",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       }
     },
@@ -927,20 +926,20 @@
       "num": 41,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-18",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-25",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       }
     },
@@ -950,20 +949,20 @@
       "num": 42,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       }
     },
@@ -973,20 +972,20 @@
       "num": 43,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-11",
+        "weekId": "2026-05-25",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       }
     },
@@ -996,20 +995,20 @@
       "num": 44,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-25",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       }
     },
@@ -1019,20 +1018,20 @@
       "num": 45,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-05-25",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       }
     },
@@ -1042,20 +1041,20 @@
       "num": 46,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "done": false
       }
     },
@@ -1065,20 +1064,20 @@
       "num": 47,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-18",
+        "weekId": "2026-06-01",
         "done": false
       },
       "check": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "done": false
       }
     },
@@ -1088,20 +1087,20 @@
       "num": 48,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       }
     },
@@ -1111,20 +1110,20 @@
       "num": 49,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-01",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       }
     },
@@ -1134,20 +1133,20 @@
       "num": 50,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-29",
         "done": false
       }
     },
@@ -1157,20 +1156,20 @@
       "num": 1,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-05-25",
+        "weekId": "2026-06-08",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-29",
         "done": false
       }
     },
@@ -1180,20 +1179,20 @@
       "num": 2,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       }
     },
@@ -1203,20 +1202,20 @@
       "num": 3,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-08",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       }
     },
@@ -1226,20 +1225,20 @@
       "num": 4,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-29",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-07-06",
         "done": false
       }
     },
@@ -1249,20 +1248,20 @@
       "num": 5,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-01",
+        "weekId": "2026-06-15",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-29",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-07-06",
         "done": false
       }
     },
@@ -1272,20 +1271,20 @@
       "num": 6,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       }
     },
@@ -1295,20 +1294,20 @@
       "num": 7,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-15",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       }
     },
@@ -1318,20 +1317,20 @@
       "num": 8,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-08",
+        "weekId": "2026-06-22",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-29",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-07-06",
         "done": false
       },
       "tc": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-13",
         "done": false
       }
     },
@@ -1341,20 +1340,20 @@
       "num": 9,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       }
     },
@@ -1364,20 +1363,20 @@
       "num": 10,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       }
     },
@@ -1387,20 +1386,20 @@
       "num": 11,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-15",
+        "weekId": "2026-06-22",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       }
     },
@@ -1410,20 +1409,20 @@
       "num": 12,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "done": false
       }
     },
@@ -1433,20 +1432,20 @@
       "num": 13,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "done": false
       }
     },
@@ -1456,20 +1455,20 @@
       "num": 14,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-22",
+        "weekId": "2026-06-29",
         "done": false
       },
       "check": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "done": false
       }
     },
@@ -1502,20 +1501,20 @@
       "num": 16,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       },
       "check": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-20",
+        "weekId": "2026-07-27",
         "done": false
       }
     },
@@ -1525,20 +1524,20 @@
       "num": 17,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-06-29",
+        "weekId": "2026-07-06",
         "done": false
       },
       "check": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-20",
+        "weekId": "2026-07-27",
         "done": false
       }
     },
@@ -1594,20 +1593,20 @@
       "num": 20,
       "stage": "prep",
       "prep": {
-        "weekId": "2026-07-06",
+        "weekId": "2026-07-13",
         "done": false
       },
       "check": {
-        "weekId": "2026-07-13",
+        "weekId": "2026-07-20",
         "person": "FB",
         "done": false
       },
       "finalize": {
-        "weekId": "2026-07-20",
+        "weekId": "2026-07-27",
         "done": false
       },
       "tc": {
-        "weekId": "2026-07-27",
+        "weekId": "2026-08-03",
         "done": false
       }
     },
@@ -2077,8 +2076,16 @@
     "2026-03-09": "Isaac Nigeria",
     "2026-03-02": "Isaac Nigeria",
     "2026-02-23": "Isaac Nigeria",
-    "2026-04-06": "Malachi Spring Break",
-    "2026-05-18": "Malachi EMDC/ptxprint",
-    "2026-05-25": "Malachi EMDC/ptxprint"
+    "2026-04-06": "Malachi Spring Break\n\nMJ waiting on sign-off from WL in 11 and 12\nFew flags to discuss as a team in 3 and 4.",
+    "2026-05-18": "Malachi EMDC/ptxprint\nWL in Nepal 19th-June7",
+    "2026-05-25": "Malachi EMDC/ptxprint\nWL in Nepal 19th-June7",
+    "2026-06-08": "Jeff vacation (daughter's graduation)\nWL in Bankok June7-13",
+    "2026-06-15": "Jeff vacation (daughter's graduation+Maine)\nWL in Pak",
+    "2026-06-22": "Jeff vacation (work part time in Maine?)\nWL in Pak",
+    "2026-03-23": "",
+    "2026-03-30": "",
+    "2026-06-01": "WL in Nepal 19th-June7",
+    "2026-06-29": "WL in Pak",
+    "2026-07-06": "WL in Pak"
   }
 }

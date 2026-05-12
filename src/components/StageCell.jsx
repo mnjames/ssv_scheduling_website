@@ -8,9 +8,9 @@ const COLORS = {
     over: "ring-2 ring-blue-400 bg-blue-100/50",
   },
   "check-DP": {
-    header: "bg-purple-50 text-purple-700 border-purple-100",
-    body: "bg-purple-50/40",
-    over: "ring-2 ring-purple-400 bg-purple-100/50",
+    header: "bg-orange-50 text-orange-700 border-orange-100",
+    body: "bg-orange-50/40",
+    over: "ring-2 ring-orange-400 bg-orange-100/50",
   },
   "check-FB": {
     header: "bg-orange-50 text-orange-700 border-orange-100",
@@ -35,8 +35,7 @@ export default function StageCell({
   stageKey,
   chapters,       // chapters assigned to this cell
   canDrop,        // whether the currently dragged item can land here
-  onMarkDone,
-  onUndoDone,
+  onToggleDone,
   onUnassign,
 }) {
   const dropId = `${weekId}__${stageKey}`;
@@ -73,8 +72,7 @@ export default function StageCell({
           key={ch.id}
           chapter={ch}
           stageKey={stageKey}
-          onMarkDone={onMarkDone}
-          onUndoDone={onUndoDone}
+          onToggleDone={onToggleDone}
           onUnassign={onUnassign}
         />
       ))}

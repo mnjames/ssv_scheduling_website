@@ -14,17 +14,18 @@ import ScheduleBoard from "./ScheduleBoard";
 import ChapterCard from "./ChapterCard";
 
 export default function ScheduleApp() {
-  const { chapters, notes, assign, unassign, setNote, markDone, undoDone, resetAll } = useSchedule();
+  const { chapters, notes, assign, unassign, moveStage, toggleStageDone, setNote, markDone, undoDone, resetAll } = useSchedule();
   const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 2 } }));
   const [activeChapter, setActiveChapter] = useState(null);
   const [activeStageKey, setActiveStageKey] = useState(null);
+  const [isEditMode, setIsEditMode] = useState(false);
 
   const stats = useMemo(() => {
     const total = chapters.length;
-    const completed = chapters.filter((c) => c.stage === "completed").length;
-    const prep = chapters.filter((c) => c.stage === "prep").length;
-    const check = chapters.filter((c) => c.stage === "check").length;
-    const finalize = chapters.filter((c) => c.stage === "finalize").length;
+    const completed = chapters.filter((c) => c.tc?.done).length;
+    const prep = chapters.filter((c) => c.prep?.done).length;
+    const check = chapters.filter((c) => c.check?.done).length;
+    const finalize = chapters.filter((c) => c.finalize?.done).length;
     return { total, completed, prep, check, finalize };
   }, [chapters]);
 
@@ -34,68 +35,90 @@ export default function ScheduleApp() {
     }
   }
 
+  function handleLogin() {
+    const pw = window.prompt("Enter admin password to edit schedule:");
+    if (!pw) return;
+    const secret = import.meta.env.VITE_ADMIN_PASSWORD || "admin";
+    if (pw === secret) {
+      setIsEditMode(true);
+    } else {
+      alert("Incorrect password");
+    }
+  }
+
   function handleSave() {
     const payload = {
-      exportedAt: new Date().toISOString(),
       chapters,
       notes,
     };
-
-    // Try to POST to server endpoint first (shared server will write data/schedule.json)
-    try {
-      // Respect Vite base when hosted under a subpath
-      // During dev, use the proxied `/api` path so vite's proxy works.
-      const apiUrl = import.meta.env.DEV
-        ? "/api/save-schedule"
-        : new URL("api/save-schedule", (import.meta.env.BASE_URL || "/")).toString();
-
-      fetch(apiUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      }).then((res) => {
-        if (!res.ok) throw new Error("Server responded " + res.status);
-        return res.json();
-      }).then((data) => {
-        console.log("Saved to server:", data);
-        alert("Schedule saved to server");
-      }).catch((err) => {
-        console.warn("Server save failed, falling back to download:", err);
-        // fallback: trigger download
-        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        const fn = `ssv_schedule_${new Date().toISOString().slice(0,10)}.json`;
-        a.href = url;
-        a.download = fn;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        URL.revokeObjectURL(url);
-      });
-    } catch (err) {
-      console.error(err);
-      alert("Failed to save file: " + (err?.message ?? err));
-    }
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "schedule.json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
   }
 
 
   function handleDragStart({ active }) {
-    const ch = chapters.find((c) => c.id === active.id);
+    // active.id is now "chapterId__stageKey"
+    const dragStageKey = active.data?.current?.stageKey ?? null;
+    const chapterId = active.data?.current?.chapterId ?? active.id.split("__")[0];
+    const ch = chapters.find((c) => c.id === chapterId);
     setActiveChapter(ch ?? null);
-    setActiveStageKey(active.data?.current?.stageKey ?? null);
+    setActiveStageKey(dragStageKey);
   }
 
   function handleDragEnd({ active, over }) {
     setActiveChapter(null);
     setActiveStageKey(null);
     if (!over) return;
-    const [weekId, targetStageKey] = over.id.split("__");
-    // Only allow dropping onto Team Prep; other columns are auto-populated
-    if (targetStageKey !== "prep") return;
-    const ch = chapters.find((c) => c.id === active.id);
-    if (!ch) return;
-    assign(ch.id, targetStageKey, weekId);
+
+    // drop target id: "weekId__stageKey"
+    const [targetWeekId, targetStageKey] = over.id.split("__");
+    const dragStageKey = active.data?.current?.stageKey ?? null;
+    const chapterId = active.data?.current?.chapterId ?? active.id.split("__")[0];
+
+    if (!chapterId || !targetWeekId) return;
+
+    // Only Team Prep accepts new assignments from the sidebar; elsewhere use moveStage
+    if (dragStageKey === null || dragStageKey === "prep") {
+      // Coming from the sidebar or prep column → original assign behaviour
+      if (targetStageKey !== "prep") return;
+      assign(chapterId, "prep", targetWeekId);
+    } else {
+      // Moving a card within its own column — only allow dropping into the same column
+      if (targetStageKey !== dragStageKey) return;
+      moveStage(chapterId, dragStageKey, targetWeekId);
+    }
+  }
+
+  if (!isEditMode) {
+    return (
+      <div className="flex flex-col h-screen overflow-hidden">
+        <Header onReset={handleReset} onSave={handleSave} onLogin={handleLogin} isEditMode={false} stats={stats} />
+
+        <div className="flex flex-1 overflow-hidden">
+          {/* chapters sidebar removed in read-only view */}
+
+          <ScheduleBoard
+            chapters={chapters}
+            notes={notes}
+            setNote={setNote}
+            activeChapter={null}
+            activeStageKey={null}
+            unassign={unassign}
+            toggleStageDone={toggleStageDone}
+            markDone={markDone}
+            undoDone={undoDone}
+            isEditMode={false}
+          />
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -106,7 +129,7 @@ export default function ScheduleApp() {
       onDragEnd={handleDragEnd}
     >
       <div className="flex flex-col h-screen overflow-hidden">
-        <Header onReset={handleReset} onSave={handleSave} stats={stats} />
+        <Header onReset={handleReset} onSave={handleSave} onLogin={handleLogin} isEditMode={true} stats={stats} />
 
         <div className="flex flex-1 overflow-hidden">
             <Sidebar chapters={chapters} />
@@ -116,9 +139,12 @@ export default function ScheduleApp() {
               notes={notes}
               setNote={setNote}
               activeChapter={activeChapter}
+              activeStageKey={activeStageKey}
               unassign={unassign}
+              toggleStageDone={toggleStageDone}
               markDone={markDone}
               undoDone={undoDone}
+              isEditMode={true}
             />
         </div>
       </div>
