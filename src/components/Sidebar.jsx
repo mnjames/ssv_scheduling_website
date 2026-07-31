@@ -11,10 +11,10 @@ export default function Sidebar({ chapters }) {
         <h2 className="text-xs font-bold text-slate-600 uppercase tracking-wide">
           Chapters
         </h2>
-        <p className="text-[11px] text-slate-400 mt-0.5">
+        <p className="text-[13px] text-slate-400 mt-0.5">
           {total} chapter{total !== 1 ? "s" : ""} to schedule
         </p>
-        <p className="text-[10px] text-blue-500 mt-1">
+        <p className="text-[12px] text-blue-500 mt-1">
           Drag to Team Prep →
         </p>
       </div>

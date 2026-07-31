@@ -57,13 +57,13 @@ export default function StageCell({
       {/* Drop hint when empty */}
       {chapters.length === 0 && !active && canDrop && (
         <div className="flex items-center justify-center h-full min-h-[36px]">
-          <span className="text-[10px] text-slate-300 italic select-none">Drop here</span>
+          <span className="text-[12px] text-slate-300 italic select-none">Drop here</span>
         </div>
       )}
 
       {active && chapters.length === 0 && (
         <div className="flex items-center justify-center h-full min-h-[36px]">
-          <span className="text-[10px] text-slate-500 italic select-none">Release to assign</span>
+          <span className="text-[12px] text-slate-500 italic select-none">Release to assign</span>
         </div>
       )}
 

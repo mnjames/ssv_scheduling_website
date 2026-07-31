@@ -242,7 +242,7 @@
       "check": {
         "weekId": "2026-04-13",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-04-20",
@@ -265,7 +265,7 @@
       "check": {
         "weekId": "2026-04-13",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-04-20",
@@ -288,7 +288,7 @@
       "check": {
         "weekId": "2026-04-20",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-04-27",
@@ -311,7 +311,7 @@
       "check": {
         "weekId": "2026-04-20",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-04-27",
@@ -334,7 +334,7 @@
       "check": {
         "weekId": "2026-04-27",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-04",
@@ -357,7 +357,7 @@
       "check": {
         "weekId": "2026-04-27",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-04",
@@ -380,7 +380,7 @@
       "check": {
         "weekId": "2026-04-27",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-04",
@@ -398,12 +398,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-04",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-11",
@@ -421,12 +421,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-04",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-11",
@@ -444,12 +444,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-04",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-11",
@@ -467,12 +467,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-04",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-11",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-18",
@@ -490,12 +490,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-04",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-11",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-18",
@@ -513,12 +513,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-04",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-11",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-18",
@@ -536,12 +536,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-11",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-18",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-25",
@@ -559,12 +559,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-11",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-18",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-25",
@@ -582,12 +582,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-05-11",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-18",
         "person": "DP",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-25",
@@ -710,7 +710,7 @@
       },
       "tc": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       }
     },
     {
@@ -733,7 +733,7 @@
       },
       "tc": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       }
     },
     {
@@ -771,15 +771,15 @@
       "check": {
         "weekId": "2026-04-27",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-04",
-        "done": false
+        "done": true
       },
       "tc": {
         "weekId": "2026-05-11",
-        "done": false
+        "done": true
       }
     },
     {
@@ -789,12 +789,12 @@
       "stage": "prep",
       "prep": {
         "weekId": "2026-04-27",
-        "done": false
+        "done": true
       },
       "check": {
         "weekId": "2026-05-04",
         "person": "FB",
-        "done": false
+        "done": true
       },
       "finalize": {
         "weekId": "2026-05-11",

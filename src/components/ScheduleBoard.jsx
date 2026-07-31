@@ -88,13 +88,13 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
           {STAGE_KEYS.map((sk) => (
             <div
               key={sk}
-              className={`flex-1 min-w-[150px] px-2 py-2 text-xs font-semibold text-center border-r border-slate-200 last:border-r-0 ${COLUMN_HEADER_COLOR[sk]}`}
+              className={`flex-1 min-w-[105px] px-2 py-2 text-xs font-semibold text-center border-r border-slate-200 last:border-r-0 ${COLUMN_HEADER_COLOR[sk]}`}
             >
               {COLUMN_LABELS[sk]}
             </div>
           ))}
           {/* Notes column header */}
-          <div className={`w-52 px-2 py-2 text-xs font-semibold text-center border-r border-slate-200 last:border-r-0 bg-slate-50 text-slate-700`}>
+          <div className={`w-[433px] flex-shrink-0 px-2 py-2 text-xs font-semibold text-center border-r border-slate-200 last:border-r-0 bg-slate-50 text-slate-700`}>
             Notes
           </div>
         </div>
@@ -117,16 +117,16 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
             >
               {/* Week label */}
               <div className="w-32 flex-shrink-0 px-3 py-2 border-r border-slate-200 flex flex-col justify-start items-start gap-0.5">
-                <span className={`text-[11px] font-semibold leading-tight ${isCurrentWeek ? "text-yellow-700" : "text-slate-600"}`}>
+                <span className={`text-[13px] font-semibold leading-tight ${isCurrentWeek ? "text-yellow-700" : "text-slate-600"}`}>
                   {week.label}
                 </span>
                 {isCurrentWeek && (
-                  <span className="text-[9px] bg-yellow-200 text-yellow-800 px-1.5 py-0.5 rounded-full font-bold">
+                  <span className="text-[11px] bg-yellow-200 text-yellow-800 px-1.5 py-0.5 rounded-full font-bold">
                     THIS WEEK
                   </span>
                 )}
                 {isPast && (
-                  <span className="text-[9px] text-slate-400 italic">past</span>
+                  <span className="text-[11px] text-slate-400 italic">past</span>
                 )}
               </div>
 
@@ -142,7 +142,7 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
                               : "bg-slate-50"
                             : "";
                           return (
-                            <div key={sk} className={`flex-1 min-w-[150px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
+                            <div key={sk} className={`flex-1 min-w-[105px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
                               <StageCell
                                 weekId={week.id}
                                 stageKey={sk}
@@ -164,7 +164,7 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
                               : "bg-slate-50"
                             : "";
                           return (
-                            <div key={sk} className={`flex-1 min-w-[150px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
+                            <div key={sk} className={`flex-1 min-w-[105px] p-1.5 border-r border-slate-200 last:border-r-0 ${colBg}`}>
                               <div className="min-h-[52px] rounded-lg p-1.5 flex flex-col gap-1">
                                 {(grid[week.id]?.[sk] ?? []).map((ch) => (
                                   <div key={ch.id} className="mb-1">
@@ -177,12 +177,12 @@ export default function ScheduleBoard({ chapters, notes = {}, setNote, activeCha
                         })}
 
               {/* Notes cell */}
-              <div className="w-52 px-2 py-2 border-r border-slate-200 last:border-r-0">
+              <div className="w-[433px] flex-shrink-0 px-2 py-2 border-r border-slate-200 last:border-r-0">
                 <textarea
                   value={notes[week.id] ?? ""}
                   onChange={(e) => setNote?.(week.id, e.target.value)}
                   placeholder="Notes..."
-                  className="w-full h-24 resize-none text-sm p-2 rounded border border-slate-200 bg-white text-slate-700"
+                  className="w-full h-28 resize-none text-sm p-2 rounded border border-slate-200 bg-white text-slate-700"
                 />
               </div>
             </div>

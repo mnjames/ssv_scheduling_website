@@ -53,7 +53,7 @@ export default function ChapterCard({
       `}
     >
       {/* Drag handle visual */}
-      <span className={`text-[10px] flex-shrink-0 ${done ? "text-slate-300" : "text-slate-400"}`}>⠿</span>
+      <span className={`text-[12px] flex-shrink-0 ${done ? "text-slate-300" : "text-slate-400"}`}>⠿</span>
 
       {/* Book + chapter label */}
       <span className={`flex-1 truncate ${done ? "text-slate-400" : ""}`}>
@@ -104,7 +104,7 @@ export default function ChapterCard({
           onPointerDown={(e) => e.stopPropagation()}
           onClick={(e) => { e.stopPropagation(); onUnassign?.(chapter.id); }}
           title="Remove from week"
-          className="invisible group-hover:visible w-5 h-5 flex items-center justify-center rounded bg-red-100 hover:bg-red-200 text-red-500 text-[10px] transition-colors"
+          className="invisible group-hover:visible w-5 h-5 flex items-center justify-center rounded bg-red-100 hover:bg-red-200 text-red-500 text-[12px] transition-colors"
         >
           ✕
         </button>
